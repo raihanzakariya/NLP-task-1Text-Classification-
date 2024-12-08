@@ -1,0 +1,196 @@
+pandas
+scikit_learn
+nltk
+matplotlib
+
+
+Write a Python program that:
+
+Loads the Iris dataset from sklearn.datasets.
+Selects only two classes: Iris-versicolor and Iris-virginica for a binary classification task.
+Builds a Logistic Regression model to predict the flower type.
+Evaluates the model with accuracy and confusion matrix.
+SQL - Employee Hierarchy Query (5 Marks)
+
+Problem:
+You are given a table named employees with the following schema:
+
+
+
+employees (
+  emp_id INT PRIMARY KEY,
+  emp_name VARCHAR(100),
+  manager_id INT
+);
+
+
+
+Write an SQL query to retrieve the number of direct and indirect subordinates for each employee.
+
+Note: An indirect subordinate is someone down the hierarchy, not directly managed by the given employee.
+
+
+
+
+
+
+
+  Which Python library is typically used for creating machine learning pipelines?  
+
+a) Pandas
+b) NumPy
+c) Scikit-learn
+d) TensorFlow
+In a deep learning model, what does the term 'dropout' refer to?  
+
+a) Removing redundant features
+b) Decreasing the number of neurons
+c) Ignoring certain neurons during training to prevent overfitting
+d) Decreasing the batch size during training
+Which SQL command is used to retrieve unique values from a column?  
+a) SELECT DISTINCT
+b) SELECT UNIQUE
+c) SELECT FILTER
+d) SELECT WHERE
+In NLP, what is 'TF-IDF' primarily used for?  
+
+a) Sentence segmentation
+b) Vectorizing text data by evaluating word importance
+c) Tokenization
+d) Reducing dimensionality of text data
+  What is the time complexity of quicksort in the best case?  
+
+a) O(n^2)
+b) O(n)
+c) O(n log n)
+d) O(log n)
+Which of the following methods can reduce the problem of overfitting in Random Forests?
+
+A) Increasing the number of decision trees
+B) Using a higher depth for each decision tree
+C) Bagging with feature selection
+D) Using boosting instead of bagging
+Which type of learning is associated with Markov Decision Processes (MDPs)?  
+
+A) Supervised Learning
+B) Unsupervised Learning
+C) Reinforcement Learning
+D) Semi-Supervised Learning
+In Python, what does the expression a = [[0] * 3] * 3 create?  
+
+a) A 3x3 matrix with independent rows
+b) A 3x3 matrix with dependent rows
+c) A 1D list with 9 elements
+d) A list with three nested empty lists
+Which of the following activation functions helps mitigate the vanishing gradient problem?  
+
+a) Sigmoid
+b) ReLU
+c) Tanh
+d) Softmax
+In an imbalanced dataset, which metric would give you the best understanding of model performance?
+
+A) Accuracy
+B) Precision
+C) Recall
+D) F1-Score
+A dataset is heavily skewed to the right. Which transformation would normalize it?  
+
+A) Log Transformation
+B) Min-Max Scaling
+C) Z-score normalization
+D) Square Root Transformation
+Which SQL clause is used to group records by a specific column?  
+
+a) WHERE
+b) GROUP BY
+c) ORDER BY
+d) HAVING
+Which of the following techniques is typically used to convert words into vectors?  
+
+A) LSTM
+B) Transformer
+C) Word2Vec
+D) Attention
+What does the term 'attention mechanism' in NLP refer to?
+
+A) A regularization technique in RNNs
+B) A way to initialize weights in deep learning models
+C) A method to assign importance to different parts of the input sequence
+D) A technique used to reduce overfitting
+A manufacturing unit wants to predict downtime of its machines. Which machine learning algorithm would you recommend and why?  
+
+A) Linear Regression
+B) Random Forest
+C) K-Means Clustering
+D) LSTM Neural Network
+  Which of the following optimization techniques is used to avoid exploding gradients in deep learning models?  
+
+a) Adam Optimizer
+b) Gradient Clipping
+c) Batch Normalization
+d) Xavier Initialization
+  Given a dataset with 100,000 features, which regularization technique should you use to reduce overfitting without eliminating features?  
+
+a) Ridge Regression
+b) Lasso Regression
+c) ElasticNet
+d) Polynomial Regression
+ In the following neural network code snippet, what mistake will result in an error?  
+
+
+
+model = Sequential()
+model.add(Dense(128, input_dim=(784,), activation='relu'))
+model.add(Dense(10, activation='softmax'))
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+A) input_dim should not have parentheses around it.
+B) The activation function 'softmax' should not be used for classification.
+C) The optimizer 'adam' is inappropriate for this architecture.
+D) The loss function categorical_crossentropy is incorrect for a multi-class classification problem.
+  What does the following SQL query do?  
+
+
+
+SELECT department_id, COUNT(*)
+FROM employees
+GROUP BY department_id
+HAVING COUNT(*) > 5;
+
+a) Returns all employees with more than 5 years of experience.
+b) Returns departments with more than 5 employees.
+c) Returns all employees in departments with more than 5 employees.
+d) Filters employees by salary where it is greater than 5.
+  What is the output shape of the following NumPy operation?  
+
+
+
+import numpy as np
+a = np.array([[1, 2], [3, 4], [5, 6]])
+b = a.T
+print(b.shape)
+
+a) (2, 3)
+b) (3, 2)
+c) (1, 3)
+d) (2, 2)
+  What is the output shape of the following NumPy operation?  
+
+
+
+import numpy as np
+a = np.array([[1, 2], [3, 4], [5, 6]])
+b = a.T
+print(b.shape)
+
+a) (2, 3)
+b) (3, 2)
+c) (1, 3)
+d) (2, 2)
+What is the primary difference between ‘Bagging’ and ‘Boosting’ algorithms?  
+
+a) Bagging aims to reduce bias, while boosting reduces variance.
+b) Bagging trains models sequentially, while boosting trains them independently.
+c) Bagging combines weak models by averaging, while boosting combines them sequentially to correct errors.
+d) Boosting works only with decision trees, while bagging supports all models.
